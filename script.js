@@ -1,3 +1,5 @@
+// --------------------------- Create a title / header area -----------------
+
 let h1 = document.createElement('h1')
 h1.setAttribute('id','title')
 h1.innerHTML="SHYNE BLUE"
@@ -12,6 +14,8 @@ h1.appendChild(phrase)
 let hrline = document.createElement("hr")
 h1.appendChild(hrline)
 
+// ---------------------------Create a search input area ---------------------------
+
 
 let Input = document.createElement("input")
 Input.setAttribute('id','myinput')
@@ -21,7 +25,7 @@ document.getElementById('root').appendChild(Input)
 
 
 
-
+// ---------------------------Fetch all the Json data ------------------------------- 
 
 async function allData(){
     try {
@@ -34,6 +38,9 @@ async function allData(){
          console.log("Error")
     }
  }
+
+
+// --------------------------- functon of the search area -------------------------
 
 
  let filterinput = document.getElementById('myinput')
@@ -61,6 +68,10 @@ async function allData(){
      }
  
  }
+
+
+// ------------------------------ create a card area ----------------------------
+
 
 async function getData(){
 
