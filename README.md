@@ -1,5 +1,7 @@
 Makeup API Hackathon 1 :
 
+"Search filter is used, search with the product name"
+    
     The site takes some time to load
     
     Create the site with external CSS.
